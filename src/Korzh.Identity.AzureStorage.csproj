@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Korzh.Identity.AzureStorage</PackageId>
+    <PackageVersion>1.0.0-beta1</PackageVersion>
+    <Authors>Korzh.com</Authors>
+    <Description>Azure Storage implementation of Identity stores (like IUserStore and others)</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First public release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Sergiy Korzh. All rights reserved.</Copyright>
+    <PackageTags>identity azure storage</PackageTags>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.0" />
+    <PackageReference Include="Korzh.Identity" Version="1.0.0-*" />
+    <PackageReference Include="Korzh.AzureStorage" Version="1.0.0-*" />
+  </ItemGroup>
+
+</Project>
